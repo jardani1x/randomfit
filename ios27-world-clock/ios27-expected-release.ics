@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ReleaseClock//iOS 27 Expected Rollout//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ios27-expected-20260914T170000Z@releaseclock
+DTSTAMP:20260913T120000Z
+DTSTART:20260914T170000Z
+DTEND:20260914T171500Z
+SUMMARY:iOS 27 - expected rollout
+DESCRIPTION:Estimated rollout time - not guaranteed. Check Software Update.
+ More information: https://www.macrumors.com/2026/09/13/ios-27-release-date-
+ time-zones/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:iOS 27 expected rollout in 15 minutes - timing not guaranteed.
+END:VALARM
+END:VEVENT
+END:VCALENDAR
